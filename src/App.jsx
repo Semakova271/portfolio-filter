@@ -1,11 +1,9 @@
-import Store from "./components/Store.jsx";
-import './App.css';
+import Portfolio from "./components/Portfolio.tsx";
+import "./App.css";
 
 function App() {
   return (
-    <div className="app">
-      <Store />
-    </div>
+    <Portfolio />
   );
 }
 
